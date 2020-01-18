@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bar Graphs</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" class="nav justify-content-end"> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    
+
+    <a class="btn btn-info" href="./index.html" role="button"><b>Home</b></a>
+
+     
+    <!-- <a class="navbar-brand" href="#">Latitude</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" class="row justify-content-end">
+      <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                      <a class="dropdown-item" href="./wineHist.html">Histograms</a>
+                      <a class="dropdown-item" href="./boxPlots.html">Box Plots</a>
+                      <a class="dropdown-item" href="./barPlots.html">Bar Graphs</a>
+                      <a class="dropdown-item" href="./correlation.html">Correlation </a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./categorization.html">Categorization <span class="sr-only">(current)</span></a>
+                  </li>
+      
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./regression.html">Regressions <span class="sr-only">(current)</span></a>
+                  </li>
+      
+                  <li class="nav-item">
+                    <a class="nav-link" href="wineData.html">Data </a>
+                  </li>
+        
+      </ul>
+    </div>
+  </nav>
+  <div class="container-repsonsive bg-light">
+    <h4> <p class="text-info">Bar graphs</p> </h4>
+    <div class="row">
+      <img src="./Resources/wine-barplot-alcohol.png" alt="alcohol" class="img-fluid" >    
+      <img src="./Resources/wine-barplot-chlorides.png" alt="chlorides" class="img-fluid" >    
+    </div><br><hr>
+    <div class="row">
+      <img src="./Resources/wine-barplot-citricAcid.png" alt="citricAcid" class="img-fluid" >    
+      <img src="./Resources/wine-barplot-density.png" alt="density" class="img-fluid" >    
+    </div><br><hr>
+    <div class="row">
+      <img src="./Resources/wine-barplot-fixedAcidity.png" alt="fixedAcidity" class="img-fluid" >    
+      <img src="./Resources/wine-barplot-freeSulfurDioxide.png" alt="freeSulfurDioxide" class="img-fluid" >    
+    </div><br><hr>
+    <div class="row">
+      <img src="./Resources/wine-barplot-sugar.png" alt="sugar" class="img-fluid" >    
+      <img src="./Resources/wine-barplot-pH.png" alt="pH" class="img-fluid" >    
+    </div><br><hr>
+    <div class="row">
+      <img src="./Resources/wine-barplot-sulphates.png" alt="sulphates" class="img-fluid" >   
+      <img src="./Resources/wine-barplot-volatileAcidity.png" alt="volatileAcidity" class="img-fluid" >  
+ 
+    </div><br><hr>
+    <div class="row">
+      <img src="./Resources/wine-barplot-totalSulfurDioxide.png" alt="totalSulfurDioxide" class="img-fluid" >    
+  
+
+    </div>
+    <br> <hr>   
+    <h3>Observation</h3><br>
+    <h5>Quality increases as citric acid, sulphate, and alcohol go up.</h5>
+    <h5>Quality also increases as volatile acidity, chlorides, density, and pH go down.</h5>
+
+    <br> <hr>   
+</div><!--container-->
+</body>
+
+</html>
